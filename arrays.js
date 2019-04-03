@@ -16,12 +16,15 @@ function accessElementInArray(array,index) {
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array = array.shift()
+  return array
 }
 
 function removeElementFromBeginningOfArray(array) {
   array.slice(0,1)
+  return array
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
   array = array.push()
+  return array
 }
