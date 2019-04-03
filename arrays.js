@@ -1,4 +1,4 @@
-var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
+var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
 function addElementToBeginningOfArray(x) {
   let myArray = []
@@ -10,4 +10,8 @@ function destructivelyAddElementToBeginningOfArray(x) {
   let myArray = []
   myArray.unshift(x)
   return myArray
+}
+
+function accessElementInArray {
+
 }
