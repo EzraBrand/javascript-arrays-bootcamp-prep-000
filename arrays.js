@@ -15,9 +15,13 @@ function accessElementInArray(array,index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.shift()
+  array = array.shift()
 }
 
 function removeElementFromBeginningOfArray(array) {
   array.slice(0,1)
+}
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array.push()
 }
