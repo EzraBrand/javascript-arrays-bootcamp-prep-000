@@ -1,4 +1,4 @@
-chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittle']
+let chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittle']
 
 addElementToBeginningOfArray(x) {
   let myArray = []
