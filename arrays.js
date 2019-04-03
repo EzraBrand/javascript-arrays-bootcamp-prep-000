@@ -20,11 +20,9 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
-  new Array = array.slice(0,1)
-  return newArray
+  array.slice(0,1)
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
   array = array.push()
-  return array
 }
